@@ -20,7 +20,7 @@ class LoginPage extends StatelessWidget{
     //3b
     final pinCode = TextFormField(
       controller: _pinCodeController,
-      keyboardType: TextInputType.phone,
+      keyboardType: TextInputType.text,
       maxLength: 4,
       maxLines: 1,
       autofocus: true,
